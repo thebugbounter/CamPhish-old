@@ -5,6 +5,9 @@ Grab cam shots from target's phone front camera or PC webcam just sending a link
 # What is CamPhish?
 <p>CamPhish is techniques to take cam shots of target's phone front camera or PC webcam. CamPhish Hosts a fake website on in built PHP server and uses ngrok & serveo to generate a link which we will forward to the target, which can be used on over internet. website asks for camera permission and if the target allows it, this tool grab camshots of target's device</p>
 
+<h2>Disclaimer</h2>
+This tool is only for testing and academic purposes and can only be used where strict consent has been given. Do not use it for illegal purposes! It is the end user’s responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this tool and software in general.
+
 ## Features
 <p>In this tool I added two automatic webpage templates for engaged target on webpage to get more picture of cam</p>
 <ul>
@@ -13,6 +16,7 @@ Grab cam shots from target's phone front camera or PC webcam just sending a link
    <li>Online Meeting [Beta]</li>
 </ul>
 <p>simply enter festival name or youtube's video ID</p>
+
 
 ## This Tool Tested On :
 <ul>
@@ -44,5 +48,4 @@ bash camphish.sh
 <p><b>Version: 1.4:</b> Ngrok authtoken update</p>
 <p><b>Version: 1.3:</b> Fix ngrok direct link</p>
 
-<h2>Disclaimer</h2>
-This tool is only for testing and academic purposes and can only be used where strict consent has been given. Do not use it for illegal purposes! It is the end user’s responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this tool and software in general.
+
